@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0453196527A20985009AB827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453196427A20985009AB827 /* AppDelegate.swift */; };
+		0453196E27A20988009AB827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453196D27A20988009AB827 /* Assets.xcassets */; };
+		0453197C27A20989009AB827 /* quizJustoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453197B27A20989009AB827 /* quizJustoTests.swift */; };
+		0453198627A20989009AB827 /* quizJustoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453198527A20989009AB827 /* quizJustoUITests.swift */; };
+		0453198827A20989009AB827 /* quizJustoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453198727A20989009AB827 /* quizJustoUITestsLaunchTests.swift */; };
+		0453199927A20C4F009AB827 /* JustoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453199827A20C4F009AB827 /* JustoInteractor.swift */; };
+		0453199B27A20C62009AB827 /* JustoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453199A27A20C62009AB827 /* JustoProtocols.swift */; };
+		0453199D27A20C6A009AB827 /* JustoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453199C27A20C6A009AB827 /* JustoPresenter.swift */; };
+		0453199F27A20FBB009AB827 /* JustoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453199E27A20FBB009AB827 /* JustoRouter.swift */; };
+		045319A327A215CD009AB827 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045319A227A215CD009AB827 /* SplashScreen.storyboard */; };
+		045319A527A215E6009AB827 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045319A427A215E6009AB827 /* SplashScreenViewController.swift */; };
+		045319A727A216D0009AB827 /* JustonMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045319A627A216D0009AB827 /* JustonMain.storyboard */; };
+		045319A927A216E1009AB827 /* JustoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045319A827A216E1009AB827 /* JustoMainViewController.swift */; };
+		045319AC27A21E14009AB827 /* JustoModelProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045319AB27A21E14009AB827 /* JustoModelProfile.swift */; };
+		045319AF27A2276A009AB827 /* ServiceApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045319AE27A2276A009AB827 /* ServiceApiManager.swift */; };
+		045676DB27A31E2D00A3D95B /* MapLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045676DA27A31E2D00A3D95B /* MapLocationViewController.swift */; };
+		045676DD27A3241900A3D95B /* MapLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045676DC27A3241900A3D95B /* MapLocation.storyboard */; };
+		04575B9127A2924E00A3867D /* JustoProfilesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04575B9027A2924E00A3867D /* JustoProfilesDataSource.swift */; };
+		04575B9527A2930B00A3867D /* ItemProfileJustoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04575B9327A2930B00A3867D /* ItemProfileJustoTableViewCell.swift */; };
+		04575B9627A2930B00A3867D /* ItemProfileJustoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04575B9427A2930B00A3867D /* ItemProfileJustoTableViewCell.xib */; };
+		04575B9827A297F500A3867D /* AsyncImageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04575B9727A297F500A3867D /* AsyncImageDownload.swift */; };
+		04EAE2B527A3471F005DEE86 /* CodableConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE2B427A3471F005DEE86 /* CodableConvert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0453197827A20989009AB827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0453195927A20985009AB827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0453196027A20985009AB827;
+			remoteInfo = quizJusto;
+		};
+		0453198227A20989009AB827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0453195927A20985009AB827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0453196027A20985009AB827;
+			remoteInfo = quizJusto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0453196127A20985009AB827 /* quizJusto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizJusto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453196427A20985009AB827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0453196D27A20988009AB827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0453197227A20988009AB827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0453197727A20989009AB827 /* quizJustoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizJustoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453197B27A20989009AB827 /* quizJustoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizJustoTests.swift; sourceTree = "<group>"; };
+		0453198127A20989009AB827 /* quizJustoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizJustoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453198527A20989009AB827 /* quizJustoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizJustoUITests.swift; sourceTree = "<group>"; };
+		0453198727A20989009AB827 /* quizJustoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizJustoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0453199827A20C4F009AB827 /* JustoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoInteractor.swift; sourceTree = "<group>"; };
+		0453199A27A20C62009AB827 /* JustoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoProtocols.swift; sourceTree = "<group>"; };
+		0453199C27A20C6A009AB827 /* JustoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoPresenter.swift; sourceTree = "<group>"; };
+		0453199E27A20FBB009AB827 /* JustoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoRouter.swift; sourceTree = "<group>"; };
+		045319A227A215CD009AB827 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		045319A427A215E6009AB827 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		045319A627A216D0009AB827 /* JustonMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JustonMain.storyboard; sourceTree = "<group>"; };
+		045319A827A216E1009AB827 /* JustoMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoMainViewController.swift; sourceTree = "<group>"; };
+		045319AB27A21E14009AB827 /* JustoModelProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoModelProfile.swift; sourceTree = "<group>"; };
+		045319AE27A2276A009AB827 /* ServiceApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApiManager.swift; sourceTree = "<group>"; };
+		045676DA27A31E2D00A3D95B /* MapLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationViewController.swift; sourceTree = "<group>"; };
+		045676DC27A3241900A3D95B /* MapLocation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapLocation.storyboard; sourceTree = "<group>"; };
+		04575B9027A2924E00A3867D /* JustoProfilesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoProfilesDataSource.swift; sourceTree = "<group>"; };
+		04575B9327A2930B00A3867D /* ItemProfileJustoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProfileJustoTableViewCell.swift; sourceTree = "<group>"; };
+		04575B9427A2930B00A3867D /* ItemProfileJustoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemProfileJustoTableViewCell.xib; sourceTree = "<group>"; };
+		04575B9727A297F500A3867D /* AsyncImageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownload.swift; sourceTree = "<group>"; };
+		04EAE2B427A3471F005DEE86 /* CodableConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConvert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0453195E27A20985009AB827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453197427A20989009AB827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453197E27A20989009AB827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0453195827A20985009AB827 = {
+			isa = PBXGroup;
+			children = (
+				0453196327A20985009AB827 /* quizJusto */,
+				0453197A27A20989009AB827 /* quizJustoTests */,
+				0453198427A20989009AB827 /* quizJustoUITests */,
+				0453196227A20985009AB827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0453196227A20985009AB827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0453196127A20985009AB827 /* quizJusto.app */,
+				0453197727A20989009AB827 /* quizJustoTests.xctest */,
+				0453198127A20989009AB827 /* quizJustoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0453196327A20985009AB827 /* quizJusto */ = {
+			isa = PBXGroup;
+			children = (
+				045676D927A31DF800A3D95B /* MapsLocation */,
+				04575B8F27A2922A00A3867D /* DataSource */,
+				045319AD27A226AE009AB827 /* ServerManager */,
+				045319AA27A21920009AB827 /* SplashScreen */,
+				0453199527A20B0E009AB827 /* ViperConsumingApi */,
+				0453196427A20985009AB827 /* AppDelegate.swift */,
+				0453196D27A20988009AB827 /* Assets.xcassets */,
+				0453197227A20988009AB827 /* Info.plist */,
+			);
+			path = quizJusto;
+			sourceTree = "<group>";
+		};
+		0453197A27A20989009AB827 /* quizJustoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0453197B27A20989009AB827 /* quizJustoTests.swift */,
+			);
+			path = quizJustoTests;
+			sourceTree = "<group>";
+		};
+		0453198427A20989009AB827 /* quizJustoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0453198527A20989009AB827 /* quizJustoUITests.swift */,
+				0453198727A20989009AB827 /* quizJustoUITestsLaunchTests.swift */,
+			);
+			path = quizJustoUITests;
+			sourceTree = "<group>";
+		};
+		0453199527A20B0E009AB827 /* ViperConsumingApi */ = {
+			isa = PBXGroup;
+			children = (
+				0453199827A20C4F009AB827 /* JustoInteractor.swift */,
+				0453199A27A20C62009AB827 /* JustoProtocols.swift */,
+				0453199C27A20C6A009AB827 /* JustoPresenter.swift */,
+				0453199E27A20FBB009AB827 /* JustoRouter.swift */,
+				045319A627A216D0009AB827 /* JustonMain.storyboard */,
+				045319A827A216E1009AB827 /* JustoMainViewController.swift */,
+				045319AB27A21E14009AB827 /* JustoModelProfile.swift */,
+			);
+			path = ViperConsumingApi;
+			sourceTree = "<group>";
+		};
+		045319AA27A21920009AB827 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				045319A227A215CD009AB827 /* SplashScreen.storyboard */,
+				045319A427A215E6009AB827 /* SplashScreenViewController.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		045319AD27A226AE009AB827 /* ServerManager */ = {
+			isa = PBXGroup;
+			children = (
+				045319AE27A2276A009AB827 /* ServiceApiManager.swift */,
+				04575B9727A297F500A3867D /* AsyncImageDownload.swift */,
+				04EAE2B427A3471F005DEE86 /* CodableConvert.swift */,
+			);
+			path = ServerManager;
+			sourceTree = "<group>";
+		};
+		045676D927A31DF800A3D95B /* MapsLocation */ = {
+			isa = PBXGroup;
+			children = (
+				045676DA27A31E2D00A3D95B /* MapLocationViewController.swift */,
+				045676DC27A3241900A3D95B /* MapLocation.storyboard */,
+			);
+			path = MapsLocation;
+			sourceTree = "<group>";
+		};
+		04575B8F27A2922A00A3867D /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				04575B9227A292EB00A3867D /* Items */,
+				04575B9027A2924E00A3867D /* JustoProfilesDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		04575B9227A292EB00A3867D /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				04575B9327A2930B00A3867D /* ItemProfileJustoTableViewCell.swift */,
+				04575B9427A2930B00A3867D /* ItemProfileJustoTableViewCell.xib */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0453196027A20985009AB827 /* quizJusto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453198B27A20989009AB827 /* Build configuration list for PBXNativeTarget "quizJusto" */;
+			buildPhases = (
+				0453195D27A20985009AB827 /* Sources */,
+				0453195E27A20985009AB827 /* Frameworks */,
+				0453195F27A20985009AB827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quizJusto;
+			productName = quizJusto;
+			productReference = 0453196127A20985009AB827 /* quizJusto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0453197627A20989009AB827 /* quizJustoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453198E27A20989009AB827 /* Build configuration list for PBXNativeTarget "quizJustoTests" */;
+			buildPhases = (
+				0453197327A20989009AB827 /* Sources */,
+				0453197427A20989009AB827 /* Frameworks */,
+				0453197527A20989009AB827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0453197927A20989009AB827 /* PBXTargetDependency */,
+			);
+			name = quizJustoTests;
+			productName = quizJustoTests;
+			productReference = 0453197727A20989009AB827 /* quizJustoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0453198027A20989009AB827 /* quizJustoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453199127A20989009AB827 /* Build configuration list for PBXNativeTarget "quizJustoUITests" */;
+			buildPhases = (
+				0453197D27A20989009AB827 /* Sources */,
+				0453197E27A20989009AB827 /* Frameworks */,
+				0453197F27A20989009AB827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0453198327A20989009AB827 /* PBXTargetDependency */,
+			);
+			name = quizJustoUITests;
+			productName = quizJustoUITests;
+			productReference = 0453198127A20989009AB827 /* quizJustoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0453195927A20985009AB827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0453196027A20985009AB827 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0453197627A20989009AB827 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0453196027A20985009AB827;
+					};
+					0453198027A20989009AB827 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0453196027A20985009AB827;
+					};
+				};
+			};
+			buildConfigurationList = 0453195C27A20985009AB827 /* Build configuration list for PBXProject "quizJusto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0453195827A20985009AB827;
+			productRefGroup = 0453196227A20985009AB827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0453196027A20985009AB827 /* quizJusto */,
+				0453197627A20989009AB827 /* quizJustoTests */,
+				0453198027A20989009AB827 /* quizJustoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0453195F27A20985009AB827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045676DD27A3241900A3D95B /* MapLocation.storyboard in Resources */,
+				045319A327A215CD009AB827 /* SplashScreen.storyboard in Resources */,
+				0453196E27A20988009AB827 /* Assets.xcassets in Resources */,
+				04575B9627A2930B00A3867D /* ItemProfileJustoTableViewCell.xib in Resources */,
+				045319A727A216D0009AB827 /* JustonMain.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453197527A20989009AB827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453197F27A20989009AB827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0453195D27A20985009AB827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04575B9827A297F500A3867D /* AsyncImageDownload.swift in Sources */,
+				0453199D27A20C6A009AB827 /* JustoPresenter.swift in Sources */,
+				045319AC27A21E14009AB827 /* JustoModelProfile.swift in Sources */,
+				045319AF27A2276A009AB827 /* ServiceApiManager.swift in Sources */,
+				045319A927A216E1009AB827 /* JustoMainViewController.swift in Sources */,
+				04575B9127A2924E00A3867D /* JustoProfilesDataSource.swift in Sources */,
+				045319A527A215E6009AB827 /* SplashScreenViewController.swift in Sources */,
+				0453196527A20985009AB827 /* AppDelegate.swift in Sources */,
+				04EAE2B527A3471F005DEE86 /* CodableConvert.swift in Sources */,
+				0453199927A20C4F009AB827 /* JustoInteractor.swift in Sources */,
+				0453199B27A20C62009AB827 /* JustoProtocols.swift in Sources */,
+				04575B9527A2930B00A3867D /* ItemProfileJustoTableViewCell.swift in Sources */,
+				045676DB27A31E2D00A3D95B /* MapLocationViewController.swift in Sources */,
+				0453199F27A20FBB009AB827 /* JustoRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453197327A20989009AB827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453197C27A20989009AB827 /* quizJustoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453197D27A20989009AB827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453198627A20989009AB827 /* quizJustoUITests.swift in Sources */,
+				0453198827A20989009AB827 /* quizJustoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0453197927A20989009AB827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0453196027A20985009AB827 /* quizJusto */;
+			targetProxy = 0453197827A20989009AB827 /* PBXContainerItemProxy */;
+		};
+		0453198327A20989009AB827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0453196027A20985009AB827 /* quizJusto */;
+			targetProxy = 0453198227A20989009AB827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0453198927A20989009AB827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0453198A27A20989009AB827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0453198C27A20989009AB827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V538UMXNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = quizJusto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chars.quizJusto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0453198D27A20989009AB827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V538UMXNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = quizJusto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chars.quizJusto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0453198F27A20989009AB827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX39F62LVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chars.quizJustoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quizJusto.app/quizJusto";
+			};
+			name = Debug;
+		};
+		0453199027A20989009AB827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX39F62LVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chars.quizJustoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quizJusto.app/quizJusto";
+			};
+			name = Release;
+		};
+		0453199227A20989009AB827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX39F62LVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chars.quizJustoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = quizJusto;
+			};
+			name = Debug;
+		};
+		0453199327A20989009AB827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX39F62LVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chars.quizJustoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = quizJusto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0453195C27A20985009AB827 /* Build configuration list for PBXProject "quizJusto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453198927A20989009AB827 /* Debug */,
+				0453198A27A20989009AB827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453198B27A20989009AB827 /* Build configuration list for PBXNativeTarget "quizJusto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453198C27A20989009AB827 /* Debug */,
+				0453198D27A20989009AB827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453198E27A20989009AB827 /* Build configuration list for PBXNativeTarget "quizJustoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453198F27A20989009AB827 /* Debug */,
+				0453199027A20989009AB827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453199127A20989009AB827 /* Build configuration list for PBXNativeTarget "quizJustoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453199227A20989009AB827 /* Debug */,
+				0453199327A20989009AB827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0453195927A20985009AB827 /* Project object */;
+}
